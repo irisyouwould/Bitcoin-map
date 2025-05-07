@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_01fa60a3eb2c46ace6283ccec41d449b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_01fa60a3eb2c46ace6283ccec41d449b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_01fa60a3eb2c46ace6283ccec41d449b = L.map(
+                "map_01fa60a3eb2c46ace6283ccec41d449b",
+                {
+                    center: [10.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_19e77c280141b8502ffcadee786aa076 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_01fa60a3eb2c46ace6283ccec41d449b);
+        
+    
+            var marker_cluster_32a97ce0e3f1a9b99d7b9c2b26af9262 = L.markerClusterGroup(
+                {}
+            );
+            map_01fa60a3eb2c46ace6283ccec41d449b.addLayer(marker_cluster_32a97ce0e3f1a9b99d7b9c2b26af9262);
+        
+    
+            var marker_9a0080addedb158e370e9a04382677e9 = L.marker(
+                [-34.6037, -58.3816],
+                {}
+            ).addTo(marker_cluster_32a97ce0e3f1a9b99d7b9c2b26af9262);
+        
+    
+            var icon_18396e12d27f14760adf9d368214ba2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bitcoin", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_9a0080addedb158e370e9a04382677e9.setIcon(icon_18396e12d27f14760adf9d368214ba2f);
+        
+    
+        var popup_caec2a8b0cbb333328578f41e92547ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ebb2f3d7767e9b39d3d802133c31887 = $(`<div id="html_4ebb2f3d7767e9b39d3d802133c31887" style="width: 100.0%; height: 100.0%;"><strong>Argentina</strong><br><em>Daily payments and savings</em><br>Used to escape 200%+ inflation; common for rent, groceries, and wages.</div>`)[0];
+            popup_caec2a8b0cbb333328578f41e92547ab.setContent(html_4ebb2f3d7767e9b39d3d802133c31887);
+        
+
+        marker_9a0080addedb158e370e9a04382677e9.bindPopup(popup_caec2a8b0cbb333328578f41e92547ab)
+        ;
+
+        
+    
+    
+            var marker_2a4bb1805002dc8e8bc80c8ec0f7d962 = L.marker(
+                [9.082, 8.6753],
+                {}
+            ).addTo(marker_cluster_32a97ce0e3f1a9b99d7b9c2b26af9262);
+        
+    
+            var icon_0bda23873578508c977ede5981e0981f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bitcoin", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2a4bb1805002dc8e8bc80c8ec0f7d962.setIcon(icon_0bda23873578508c977ede5981e0981f);
+        
+    
+        var popup_730e2ad3b1bbfc6244c1d8be3a8015ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0204339ddd6ca163dba7689c3cf32a79 = $(`<div id="html_0204339ddd6ca163dba7689c3cf32a79" style="width: 100.0%; height: 100.0%;"><strong>Nigeria</strong><br><em>Freelancing & remittances</em><br>Bitcoin allows cross-border payments and receiving freelance wages.</div>`)[0];
+            popup_730e2ad3b1bbfc6244c1d8be3a8015ab.setContent(html_0204339ddd6ca163dba7689c3cf32a79);
+        
+
+        marker_2a4bb1805002dc8e8bc80c8ec0f7d962.bindPopup(popup_730e2ad3b1bbfc6244c1d8be3a8015ab)
+        ;
+
+        
+    
+    
+            var marker_cdefe41dc0b18a65f267e2ab2842dc3b = L.marker(
+                [48.3794, 31.1656],
+                {}
+            ).addTo(marker_cluster_32a97ce0e3f1a9b99d7b9c2b26af9262);
+        
+    
+            var icon_99fdeb15b08a330ad0e0956e84568969 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bitcoin", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_cdefe41dc0b18a65f267e2ab2842dc3b.setIcon(icon_99fdeb15b08a330ad0e0956e84568969);
+        
+    
+        var popup_4a0a12f612440a66ebd5eb6e1a3f502f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84352478fc99c1bf4abb057a297d9e7c = $(`<div id="html_84352478fc99c1bf4abb057a297d9e7c" style="width: 100.0%; height: 100.0%;"><strong>Ukraine</strong><br><em>Emergency funds and donations</em><br>Used during war to send aid when banks were failing.</div>`)[0];
+            popup_4a0a12f612440a66ebd5eb6e1a3f502f.setContent(html_84352478fc99c1bf4abb057a297d9e7c);
+        
+
+        marker_cdefe41dc0b18a65f267e2ab2842dc3b.bindPopup(popup_4a0a12f612440a66ebd5eb6e1a3f502f)
+        ;
+
+        
+    
+    
+            var marker_f983d7a2e149f387f6cb5f4b8c7e3d72 = L.marker(
+                [13.7942, -88.8965],
+                {}
+            ).addTo(marker_cluster_32a97ce0e3f1a9b99d7b9c2b26af9262);
+        
+    
+            var icon_b35d0a2679b91d002c10efb43120b791 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bitcoin", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f983d7a2e149f387f6cb5f4b8c7e3d72.setIcon(icon_b35d0a2679b91d002c10efb43120b791);
+        
+    
+        var popup_f2e1fd5afd4dbc019766d1d7ed8f80ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12950f08a2870efb6e9196a9801ada30 = $(`<div id="html_12950f08a2870efb6e9196a9801ada30" style="width: 100.0%; height: 100.0%;"><strong>El Salvador</strong><br><em>National legal tender</em><br>Used for everyday transactions like food, fuel, and services.</div>`)[0];
+            popup_f2e1fd5afd4dbc019766d1d7ed8f80ac.setContent(html_12950f08a2870efb6e9196a9801ada30);
+        
+
+        marker_f983d7a2e149f387f6cb5f4b8c7e3d72.bindPopup(popup_f2e1fd5afd4dbc019766d1d7ed8f80ac)
+        ;
+
+        
+    
+    
+            var marker_569ab92f0ea093ad5d72f48d3bf6ac4f = L.marker(
+                [33.9391, 67.71],
+                {}
+            ).addTo(marker_cluster_32a97ce0e3f1a9b99d7b9c2b26af9262);
+        
+    
+            var icon_922b3425a6a402aaf310d1da7e193c9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bitcoin", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_569ab92f0ea093ad5d72f48d3bf6ac4f.setIcon(icon_922b3425a6a402aaf310d1da7e193c9c);
+        
+    
+        var popup_b55bf48e45630a8bfe1b29e0cfbad533 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2c36afb7c6c3104e81808856c605eae = $(`<div id="html_c2c36afb7c6c3104e81808856c605eae" style="width: 100.0%; height: 100.0%;"><strong>Afghanistan</strong><br><em>Financial access for women</em><br>Bitcoin allowed NGOs to pay women directly after Taliban banned bank access.</div>`)[0];
+            popup_b55bf48e45630a8bfe1b29e0cfbad533.setContent(html_c2c36afb7c6c3104e81808856c605eae);
+        
+
+        marker_569ab92f0ea093ad5d72f48d3bf6ac4f.bindPopup(popup_b55bf48e45630a8bfe1b29e0cfbad533)
+        ;
+
+        
+    
+    
+            var marker_b70de4f71bf7248e7ea728dcdfaa6679 = L.marker(
+                [33.8547, 35.8623],
+                {}
+            ).addTo(marker_cluster_32a97ce0e3f1a9b99d7b9c2b26af9262);
+        
+    
+            var icon_bbe4b3f82c3cfe03a06c8db3cf6c7036 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bitcoin", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b70de4f71bf7248e7ea728dcdfaa6679.setIcon(icon_bbe4b3f82c3cfe03a06c8db3cf6c7036);
+        
+    
+        var popup_f999d37e0f7dcbd7da7eecb0e90bdbf8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6ad2f5488523792bf7d202e212df271 = $(`<div id="html_e6ad2f5488523792bf7d202e212df271" style="width: 100.0%; height: 100.0%;"><strong>Lebanon</strong><br><em>Banking alternative</em><br>Used as a store of value and a way to move money in banking collapse.</div>`)[0];
+            popup_f999d37e0f7dcbd7da7eecb0e90bdbf8.setContent(html_e6ad2f5488523792bf7d202e212df271);
+        
+
+        marker_b70de4f71bf7248e7ea728dcdfaa6679.bindPopup(popup_f999d37e0f7dcbd7da7eecb0e90bdbf8)
+        ;
+
+        
+    
+    
+            var marker_af27cf235925964f79f6a1887084a879 = L.marker(
+                [13.41, 122.56],
+                {}
+            ).addTo(marker_cluster_32a97ce0e3f1a9b99d7b9c2b26af9262);
+        
+    
+            var icon_697ccfbd026986b5ac4d7eec3bd04eba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bitcoin", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_af27cf235925964f79f6a1887084a879.setIcon(icon_697ccfbd026986b5ac4d7eec3bd04eba);
+        
+    
+        var popup_bd0c4217eee405419eeae9e026cc023a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb509f80cd3ec054ee79c6775048457c = $(`<div id="html_bb509f80cd3ec054ee79c6775048457c" style="width: 100.0%; height: 100.0%;"><strong>Philippines</strong><br><em>Low-cost remittances</em><br>Bitcoin and Lightning Network used for cheap international money transfers.</div>`)[0];
+            popup_bd0c4217eee405419eeae9e026cc023a.setContent(html_bb509f80cd3ec054ee79c6775048457c);
+        
+
+        marker_af27cf235925964f79f6a1887084a879.bindPopup(popup_bd0c4217eee405419eeae9e026cc023a)
+        ;
+
+        
+    
+    
+            var marker_e6e27e770ba8142bb1df7b77ecde3e2a = L.marker(
+                [22.3193, 114.1694],
+                {}
+            ).addTo(marker_cluster_32a97ce0e3f1a9b99d7b9c2b26af9262);
+        
+    
+            var icon_abdde905b35a5a919a35c5e335537e76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bitcoin", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e6e27e770ba8142bb1df7b77ecde3e2a.setIcon(icon_abdde905b35a5a919a35c5e335537e76);
+        
+    
+        var popup_696c57fe70a33d1227da8a81bb3b479c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82d66acd9a0b910e935c98932a962699 = $(`<div id="html_82d66acd9a0b910e935c98932a962699" style="width: 100.0%; height: 100.0%;"><strong>Hong Kong</strong><br><em>Circumventing surveillance</em><br>Activists use Bitcoin to fund operations outside state control.</div>`)[0];
+            popup_696c57fe70a33d1227da8a81bb3b479c.setContent(html_82d66acd9a0b910e935c98932a962699);
+        
+
+        marker_e6e27e770ba8142bb1df7b77ecde3e2a.bindPopup(popup_696c57fe70a33d1227da8a81bb3b479c)
+        ;
+
+        
+    
+</script>
+</html>
